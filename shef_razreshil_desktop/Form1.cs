@@ -19,19 +19,31 @@ namespace shef_razreshil_desktop
             string shef_res = null;
             string shef = "Шеф";
             string happy_shef = null;
+            string evil_shef = null;
 
             Random xuy = new Random();
-            int zalupa = xuy.Next(1, 2);
-
+            int zalupa = xuy.Next(1, 3);
             if (zalupa == 1)
             {
                 happy_shef = "смилостивился и разрешил покурить";
             }
-            else
+            else if (zalupa == 2) 
             {
-                happy_shef = "в честь праздника разрешил покурить";
+                happy_shef = "в честь праздника разрешил покурить в туалетах";
             }
-            string evil_shef = "запретил курить";
+
+            Random penis = new Random();
+            int davalka = penis.Next(1, 3);
+            if (davalka == 1) 
+            {
+                evil_shef = "запретил курить";
+            }
+            else if (davalka == 2)
+            {
+                evil_shef = "в ярости, сегодня опасно курить";
+            }
+
+
             Random rnd = new Random();
             int x = rnd.Next(0, 10);
 
