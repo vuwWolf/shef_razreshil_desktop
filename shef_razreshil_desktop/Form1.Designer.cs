@@ -29,19 +29,41 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(shef));
+            this.button1 = new System.Windows.Forms.Button();
+            this.result = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // result
+            // 
+            resources.ApplyResources(this.result, "result");
+            this.result.Name = "result";
             // 
             // shef
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.Controls.Add(this.result);
+            this.Controls.Add(this.button1);
             this.Name = "shef";
             this.ShowIcon = false;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private Button button1;
+        private Label result;
     }
 }
