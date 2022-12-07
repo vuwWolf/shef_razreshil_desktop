@@ -75,11 +75,14 @@
   <data name="result.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
+  <data name="result.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 12pt</value>
+  </data>
   <data name="result.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="result.Size" type="System.Drawing.Size, System.Drawing">
-    <value>38, 15</value>
+    <value>49, 19</value>
   </data>
   <data name="result.Text" xml:space="preserve">
     <value>label1</value>

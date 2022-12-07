@@ -44,6 +44,7 @@
             // result
             // 
             resources.ApplyResources(this.result, "result");
+            this.result.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.result.Name = "result";
             // 
             // shef
