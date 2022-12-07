@@ -17,8 +17,20 @@ namespace shef_razreshil_desktop
         private void button1_Click(object sender, EventArgs e)
         {
             string shef_res = null;
-            string shef = "шеф";
-            string happy_shef = "смилостивился и разрешил покурить";
+            string shef = "Шеф";
+            string happy_shef = null;
+
+            Random xuy = new Random();
+            int zalupa = xuy.Next(1, 2);
+
+            if (zalupa == 1)
+            {
+                happy_shef = "смилостивился и разрешил покурить";
+            }
+            else
+            {
+                happy_shef = "в честь праздника разрешил покурить";
+            }
             string evil_shef = "запретил курить";
             Random rnd = new Random();
             int x = rnd.Next(0, 10);
