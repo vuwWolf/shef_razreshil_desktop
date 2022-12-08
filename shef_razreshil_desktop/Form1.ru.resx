@@ -72,9 +72,6 @@
   <data name="result.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="result.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="result.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 12pt</value>
   </data>
@@ -88,6 +85,39 @@
     <value>label1</value>
   </data>
   <data name="result.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 426</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="shefBoxTrue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="shefBoxTrue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 426</value>
+  </data>
+  <data name="shefBoxTrue.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="shefBoxTrue.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="shefBoxTrue.WaitOnLoad" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="shefBoxFalse.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="shefBoxFalse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 426</value>
+  </data>
+  <data name="shefBoxFalse.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="shefBoxFalse.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
 </root>
