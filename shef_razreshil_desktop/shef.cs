@@ -11,11 +11,6 @@ namespace shef_razreshil_desktop
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             shefBoxFalse.Visible = false;
@@ -79,5 +74,15 @@ namespace shef_razreshil_desktop
         {
 
         }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void shef_Load(object sender, EventArgs e)
+        {
+
+        }
     }
-}
+    }
