@@ -48,8 +48,8 @@ namespace shef_razreshil_desktop
             }
 
 
-            Random rnd = new Random();
-            int rukoblud = rnd.Next(0, 10);
+            Random her = new();
+            int rukoblud = her.Next(0, 10);
 
             if (rukoblud >= 9)
             {
