@@ -1,4 +1,4 @@
-using Microsoft.VisualBasic.ApplicationServices;
+п»їusing Microsoft.VisualBasic.ApplicationServices;
 using System.Security.Cryptography.X509Certificates;
 using System.Security.Policy;
 using System.Threading;
@@ -19,7 +19,7 @@ namespace shef_razreshil_desktop
             shefBoxTrue.Visible = false;
             label1.Visible = false;
             string shef_res;
-            string shef = "Шеф";
+            string shef = "РЁРµС„";
             string happy_shef = null;
             string evil_shef = null;
 
@@ -27,22 +27,22 @@ namespace shef_razreshil_desktop
             int zalupa = xuy.Next(1, 3);
             if (zalupa == 1)
             {
-                happy_shef = "смилостивился и разрешил покурить";
+                happy_shef = "СЃРјРёР»РѕСЃС‚РёРІРёР»СЃСЏ Рё СЂР°Р·СЂРµС€РёР» РїРѕРєСѓСЂРёС‚СЊ";
             }
             else if (zalupa == 2)
             {
-                happy_shef = "в честь праздника разрешил покурить в туалетах";
+                happy_shef = "РІ С‡РµСЃС‚СЊ РїСЂР°Р·РґРЅРёРєР° СЂР°Р·СЂРµС€РёР» РїРѕРєСѓСЂРёС‚СЊ РІ С‚СѓР°Р»РµС‚Р°С…";
             }
 
             Random penis = new();
             int davalka = penis.Next(1, 3);
             if (davalka == 1)
             {
-                evil_shef = "запретил курить";
+                evil_shef = "Р·Р°РїСЂРµС‚РёР» РєСѓСЂРёС‚СЊ";
             }
             else if (davalka == 2)
             {
-                evil_shef = "в ярости, сегодня опасно курить";
+                evil_shef = "РІ СЏСЂРѕСЃС‚Рё, СЃРµРіРѕРґРЅСЏ РѕРїР°СЃРЅРѕ РєСѓСЂРёС‚СЊ";
             }
 
 
