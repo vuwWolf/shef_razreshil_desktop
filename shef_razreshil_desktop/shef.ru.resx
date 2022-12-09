@@ -65,30 +65,38 @@
   <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 9pt</value>
   </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 415</value>
+  </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 23</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
-    <value>Узнать результат</value>
+    <value>Разрешил?</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="result.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="result.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 12pt</value>
+    <value>Calibri, 14.25pt</value>
   </data>
   <data name="result.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="result.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 116</value>
+  </data>
   <data name="result.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 19</value>
+    <value>401, 138</value>
   </data>
   <data name="result.Text" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="result.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
+    <value>десктоп версию "Шеф разрешил?".
+Главным отличием от Web-версии 
+является возможность попытать
+свою удачу и узнать, разрешает ли
+сегодня Шеф или нет, более одного раза в сутки.
+Удачи!</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>311, 426</value>
@@ -122,6 +130,27 @@
   </data>
   <data name="shefBoxFalse.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
+  </data>
+  <data name="closeButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="closeButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="closeButton.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bahnschrift Condensed, 18pt</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 29</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>LizardSquad представляет</value>
   </data>
   <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
     <value>True</value>

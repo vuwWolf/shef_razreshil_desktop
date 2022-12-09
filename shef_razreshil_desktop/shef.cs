@@ -1,6 +1,7 @@
 using Microsoft.VisualBasic.ApplicationServices;
 using System.Security.Cryptography.X509Certificates;
 using System.Security.Policy;
+using System.Threading;
 
 namespace shef_razreshil_desktop
 {
@@ -8,6 +9,7 @@ namespace shef_razreshil_desktop
     {
         public shef()
         {
+
             InitializeComponent();
         }
 
@@ -15,6 +17,7 @@ namespace shef_razreshil_desktop
         {
             shefBoxFalse.Visible = false;
             shefBoxTrue.Visible = false;
+            label1.Visible = false;
             string shef_res;
             string shef = "Шеф";
             string happy_shef = null;
@@ -26,14 +29,14 @@ namespace shef_razreshil_desktop
             {
                 happy_shef = "смилостивился и разрешил покурить";
             }
-            else if (zalupa == 2) 
+            else if (zalupa == 2)
             {
                 happy_shef = "в честь праздника разрешил покурить в туалетах";
             }
 
             Random penis = new();
             int davalka = penis.Next(1, 3);
-            if (davalka == 1) 
+            if (davalka == 1)
             {
                 evil_shef = "запретил курить";
             }
@@ -51,7 +54,7 @@ namespace shef_razreshil_desktop
                 shef_res = shef + " " + happy_shef;
                 result.Text = shef_res;
             }
-            else 
+            else
             {
                 shef_res = shef + " " + evil_shef;
                 result.Text = shef_res;
@@ -67,7 +70,7 @@ namespace shef_razreshil_desktop
             }
 
             result.Visible = true;
-            
+
         }
 
         private void result_Click(object sender, EventArgs e)
@@ -84,5 +87,15 @@ namespace shef_razreshil_desktop
         {
 
         }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
-    }
+}

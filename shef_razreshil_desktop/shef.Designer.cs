@@ -34,6 +34,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.shefBoxTrue = new System.Windows.Forms.PictureBox();
             this.shefBoxFalse = new System.Windows.Forms.PictureBox();
+            this.closeButton = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.shefBoxTrue)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.shefBoxFalse)).BeginInit();
@@ -77,18 +79,34 @@
             this.shefBoxFalse.Name = "shefBoxFalse";
             this.shefBoxFalse.TabStop = false;
             // 
+            // closeButton
+            // 
+            resources.ApplyResources(this.closeButton, "closeButton");
+            this.closeButton.FlatAppearance.BorderSize = 0;
+            this.closeButton.Name = "closeButton";
+            this.closeButton.UseVisualStyleBackColor = true;
+            this.closeButton.Click += new System.EventHandler(this.Button2_Click);
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // shef
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.closeButton);
             this.Controls.Add(this.shefBoxFalse);
             this.Controls.Add(this.shefBoxTrue);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.result);
             this.Controls.Add(this.button1);
             this.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "shef";
             this.ShowIcon = false;
             this.Load += new System.EventHandler(this.shef_Load);
@@ -107,5 +125,7 @@
         private PictureBox pictureBox1;
         private PictureBox shefBoxTrue;
         private PictureBox shefBoxFalse;
+        private Button closeButton;
+        private Label label1;
     }
 }

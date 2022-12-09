@@ -73,6 +73,26 @@ namespace shef_razreshil_desktop.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap lzrd_black {
+            get {
+                object obj = ResourceManager.GetObject("lzrd_black", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lzrd_black_png {
+            get {
+                object obj = ResourceManager.GetObject("lzrd_black_png", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap lzrd_shef_запретил {
             get {
                 object obj = ResourceManager.GetObject("lzrd_shef_запретил", resourceCulture);
